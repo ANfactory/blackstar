@@ -1,10 +1,11 @@
 {
   "name": "blackstar",
   "version": "0.1.0",
-  "description": "",
+  "description": "Tiny tribute to David Bowie",
   "main": "index.js",
   "scripts": {
-    "start": "DEBUG=blackstar nodemon index.js"
+    "start": "node index.js",
+    "devstart": "nodemon index.js"
   },
   "repository": {
     "type": "git",
