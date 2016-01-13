@@ -1,0 +1,25 @@
+{
+  "name": "blackstar",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=blackstar nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anfactory/blackstar.git"
+  },
+  "author": "Abdel Nalbou <dobermann@dogstudio.be>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anfactory/blackstar/issues"
+  },
+  "homepage": "https://github.com/anfactory/blackstar#readme",
+  "engines": {
+    "node": "4.2.4"
+  },
+  "dependencies": {
+    "express": "4.13.3"
+  }
+}
