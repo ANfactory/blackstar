@@ -1,6 +1,5 @@
 var path = require('path');
 var webpack = require('webpack');
-var CleanWebpackPlugin = require('clean-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var AssetsPlugin = require('assets-webpack-plugin');
 
@@ -34,7 +33,6 @@ module.exports = {
   },
   plugins: [
     new webpack.optimize.UglifyJsPlugin(),
-    new CleanWebpackPlugin(['public'], {verbose: true, dry: false}),
     new ExtractTextPlugin('[name].css'),
     new AssetsPlugin(assetsPluginOpts),
     new webpack.ProvidePlugin(providePluginOpts)
